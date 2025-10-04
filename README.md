@@ -102,9 +102,9 @@ Velocity-scaled lookahead for stable tracking
 
 ```bash
 cd ~/ros2_ws/src
-git clone <repository_url> nav
+git clone https://github.com/manojkarnekar/smoothing-rpp.git nav
 cd ~/ros2_ws
-colcon build --packages-select nav
+colcon build --symlink-install
 source install/setup.bash
 ```
 
