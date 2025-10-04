@@ -133,7 +133,10 @@ This launches:
 ros2 run nav smoothing
 ```
 
-Loads waypoints from CSV, generates smooth trajectory, and publishes to `/path` topic.
+Loads waypoints from CSV, generates smooth trajectory, and publishes:
+
+- Original waypoints to /waypoints (visualized in red in RViz)
+- Smoothed trajectory to /path (visualized in green in RViz)
 
 ## Configuration
 
